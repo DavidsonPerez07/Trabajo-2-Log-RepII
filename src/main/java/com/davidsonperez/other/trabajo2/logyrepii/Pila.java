@@ -28,4 +28,7 @@ public class Pila {
         return tope == -1;
     }
     
+    public Persona mostrarPila(int i) {
+        return vectorPersonas[i];
+    }
 }
